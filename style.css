@@ -80,18 +80,25 @@ img {
     width: 100%;
   }
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
+  #lezioni .row .left,
+  #lezioni .row .right {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 20px 0;
   }
 
-
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right {
     width: 100%;
-    margin-top: 50px;
+    margin: 20px 0;
+  }
+
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    width: 100%;
+    margin-top: 30px;
+
   }
 
   .row img{
